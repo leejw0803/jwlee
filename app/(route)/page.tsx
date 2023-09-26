@@ -1,3 +1,3 @@
 export default function Home() {
-  return <main>This is Home</main>;
+  return <main>준비중입니다.</main>;
 }

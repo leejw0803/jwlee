@@ -1,3 +1,5 @@
-export default function Posts() {
-  return <main>This is About me page</main>;
+import AboutMe from '@/_views/components/pages/about-me';
+
+export default function AboutMePage() {
+  return <AboutMe />;
 }

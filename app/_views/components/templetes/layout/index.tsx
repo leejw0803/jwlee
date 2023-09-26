@@ -1,6 +1,6 @@
 import { type PropsWithChildren } from 'react';
-import Header from '@/_views/components/templetes/layout/header';
-import { Container } from '../../elements/grid';
+import Header from '@/_views/components/templetes/header';
+import { Container } from '@/_views/components/elements/grid';
 
 function Layout({ children }: PropsWithChildren) {
   return (
