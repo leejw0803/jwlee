@@ -12,7 +12,7 @@ function Header() {
         </Column>
         <Column className=" col-span-9 items-start justify-center">
           <Row className=" items-center gap-8">
-            <Link href="/about-me">
+            <Link href="/intro">
               <Typography
                 variant="body"
                 color="grey500"
