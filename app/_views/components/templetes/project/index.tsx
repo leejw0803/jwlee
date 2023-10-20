@@ -81,8 +81,15 @@ function Stacks({ children }: PropsWithChildren) {
   );
 }
 
-function Project({ children }: PropsWithChildren) {
-  return <ProjectContext.Provider value={'default'}>{children}</ProjectContext.Provider>;
+type ProjectProps = {
+  className?: string;
+} & PropsWithChildren;
+function Project({ children, className }: ProjectProps) {
+  return (
+    <ProjectContext.Provider value={'default'}>
+      <div className={className}>{children}</div>
+    </ProjectContext.Provider>
+  );
 }
 
 Project.Title = Title;
