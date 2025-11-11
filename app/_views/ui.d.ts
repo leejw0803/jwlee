@@ -1,3 +1,0 @@
-type PropsWithClassName = {
-  className?: string;
-};
