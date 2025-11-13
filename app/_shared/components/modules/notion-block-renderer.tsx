@@ -1,43 +1,22 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react';
-import { Card, CardContent } from '@/components/ui/card';
-import { Separator } from '@/components/ui/separator';
 import {
+  Alert,
+  AlertDescription,
+  Separator,
   TypographyH1,
   TypographyH2,
   TypographyH3,
   TypographyH4,
   TypographyP,
-} from '@/components/ui/typography';
-import { cn } from '@/lib/utils';
-
-type RichText = {
-  text: { content: string; link: { url: string } | null };
-  annotations: {
-    bold: boolean;
-    italic: boolean;
-    strikethrough: boolean;
-    underline: boolean;
-    code: boolean;
-    color: string;
-  };
-  plain_text: string;
-};
-type Column = {
-  width_ratio: number;
-};
-
-export type Block = {
-  id: string;
-  type: string;
-  has_children: boolean;
-  children?: Block[];
-  column?: Column;
-  [key: string]: any;
-};
+  TypographyTitle,
+} from '../atoms';
+import { cn } from '@/app/_shared/lib/util';
 
 const RichTextRenderer = ({ richTexts }: { richTexts: RichText[] }) => (
   <>
     {richTexts.map((rt, i) => {
+      // console.log(rt.text === undefined ? rt : '?');
       let el: React.ReactNode = rt.text.link ? (
         <a
           href={rt.text.link.url || '#'}
@@ -211,6 +190,65 @@ export const BlockRenderer = ({ block }: { block: Block }) => {
         </div>
       );
 
+    case 'image': {
+      const src = block.image.type === 'external' ? block.image.external.url : block.image.file.url;
+      const caption = block.image.caption?.[0]?.plain_text || '';
+
+      return (
+        <figure className="my-4">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={src}
+            alt={caption || 'notion image'}
+            className="rounded-md border border-border mx-auto"
+          />
+          {caption && (
+            <figcaption className="text-center text-sm text-muted-foreground mt-2">
+              {caption}
+            </figcaption>
+          )}
+        </figure>
+      );
+    }
+
+    case 'callout': {
+      const text = block.callout.rich_text;
+      const icon = block.callout.icon?.emoji || '💡';
+      return (
+        <Alert className="my-4 border-border bg-muted/40">
+          <AlertDescription className="flex items-center gap-2">
+            <span>{icon}</span>
+            <TypographyP>
+              <RichTextRenderer richTexts={text} />
+            </TypographyP>
+          </AlertDescription>
+        </Alert>
+      );
+    }
+
+    case 'code': {
+      const lang = block.code.language || 'text';
+      const text = block.code.rich_text?.map((t: any) => t.plain_text).join('') || '';
+      const caption = block.code.caption?.[0]?.plain_text;
+
+      return (
+        <div className="my-6">
+          {/* Code Box */}
+          <pre
+            className={cn(
+              'w-full overflow-x-auto rounded-md bg-zinc-900 text-zinc-100 p-4',
+              'text-sm leading-relaxed border border-zinc-800'
+            )}
+          >
+            <code className={`language-${lang}`}>{text}</code>
+          </pre>
+
+          {/* Optional Caption */}
+          {caption && <p className="text-sm text-muted-foreground mt-2 text-center">{caption}</p>}
+        </div>
+      );
+    }
+
     default:
       return null;
   }
@@ -263,8 +301,8 @@ export const NotionRenderer = ({ blocks, title }: { blocks: Block[]; title: stri
     return elements;
   };
   return (
-    <div className="w-full max-w-5xl mx-auto">
-      <TypographyH1>{title}</TypographyH1>
+    <div className="w-full max-w-5xl mx-auto px-6">
+      <TypographyTitle>{title}</TypographyTitle>
       {renderBlocks(blocks)}
     </div>
   );

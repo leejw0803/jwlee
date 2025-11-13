@@ -3,12 +3,15 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import { cn } from '@/lib/utils';
-import { ThemeToggle } from '@/components/ui/theme-toggle-button';
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
+import { cn } from '@/app/_shared/lib/util';
+import { ThemeToggle } from './theme-toggle-button';
 
-const navItems = [{ name: 'Home', href: '/home' }];
+const navItems = [
+  { name: 'Home', href: '/home' },
+  { name: 'Project', href: '/projects' },
+];
 
 export function Header() {
   const { theme, systemTheme } = useTheme();
