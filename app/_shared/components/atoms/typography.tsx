@@ -1,4 +1,13 @@
-import { cn } from '@/lib/utils';
+import { cn } from '@/app/_shared/lib/util';
+
+export function TypographyTitle({ className, ...props }: React.ComponentProps<'h1'>) {
+  return (
+    <h1
+      className={cn('pt-8 pb-2 text-5xl font-extrabold tracking-tight text-balance', className)}
+      {...props}
+    />
+  );
+}
 
 export function TypographyH1({ className, ...props }: React.ComponentProps<'h1'>) {
   return (
