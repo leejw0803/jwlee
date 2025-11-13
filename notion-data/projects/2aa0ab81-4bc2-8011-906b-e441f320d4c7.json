@@ -1,0 +1,2900 @@
+{
+  "object": "block",
+  "id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7",
+  "parent": {
+    "type": "data_source_id",
+    "data_source_id": "2aa0ab81-4bc2-80dc-8cd2-000b6267ebf0",
+    "database_id": "2aa0ab81-4bc2-80fb-b0df-d1c8d687d65d"
+  },
+  "created_time": "2025-11-13T13:32:00.000Z",
+  "last_edited_time": "2025-11-13T15:24:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+  },
+  "has_children": true,
+  "archived": false,
+  "in_trash": false,
+  "type": "child_page",
+  "child_page": {
+    "title": "POS를 만들어야 한다고?"
+  },
+  "request_id": "ed314123-8078-4fd1-ad4c-1953fb27f84f",
+  "children": [
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-802f-aca4-ff2f0eb50d77",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "신규 프랜차이즈 론칭을 앞두고, 기존 주문앱에는 없던 POS 기능을 직접 만들어야 하는 상황이 찾아왔습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "신규 프랜차이즈 론칭을 앞두고, 기존 주문앱에는 없던 POS 기능을 직접 만들어야 하는 상황이 찾아왔습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8067-82cd-e4c5333296fe",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그동안은 외부 POS 업체와 연동해 주문이 들어오면 그쪽에서 처리해 주는 구조였지만, 내부 비즈니스 전략이 바뀌면서 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그동안은 외부 POS 업체와 연동해 주문이 들어오면 그쪽에서 처리해 주는 구조였지만, 내부 비즈니스 전략이 바뀌면서 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "POS 기능을 아예 우리 손으로 구현하자",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "POS 기능을 아예 우리 손으로 구현하자",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "는 결정이 내려졌습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "는 결정이 내려졌습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80bd-82ca-df825efe0120",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 결정은 단순히 “POS 기능을 앱에 하나 더 넣자”는 의미가 아니었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 결정은 단순히 “POS 기능을 앱에 하나 더 넣자”는 의미가 아니었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80b4-884d-f13299cc5485",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "앞으로 주문앱뿐만 아니라 더 다양한 주문 흐름을 우리가 직접 관리하게 될 수도 있다는 점을 고려하면, POS 기능은 꽤 본질적인 성장 포인트가 될 수 있었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "앞으로 주문앱뿐만 아니라 더 다양한 주문 흐름을 우리가 직접 관리하게 될 수도 있다는 점을 고려하면, POS 기능은 꽤 본질적인 성장 포인트가 될 수 있었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8062-ad32-da88c3d344dd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "물론 우리가 만들려던 POS가 모든 오프라인 주문과 매장 운영을 아우르는 형태는 아니었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "물론 우리가 만들려던 POS가 모든 오프라인 주문과 매장 운영을 아우르는 형태는 아니었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8037-8b26-d53fdbcb49b5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "좀 더 정확히 말하면 ‘주문앱을 통해 들어오는 주문을 안정적으로 처리하는 전용 POS’에 가까웠습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "좀 더 정확히 말하면 ‘주문앱을 통해 들어오는 주문을 안정적으로 처리하는 전용 POS’에 가까웠습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8050-903e-d721315718dc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 이 기능을 제대로 구현하려면 웹만으로는 해결할 수 없는 요소가 많았습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 이 기능을 제대로 구현하려면 웹만으로는 해결할 수 없는 요소가 많았습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-808c-bb50-e538243c5d54",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "데스크탑 앱 빌드, 프린터 연동, 실시간 주문 처리 등 여러 기술 요소가 얽혀 있었고, 무엇보다 론칭 일정이 촉박해 팀이 빠르게 판단하고 실행해야 했습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "데스크탑 앱 빌드, 프린터 연동, 실시간 주문 처리 등 여러 기술 요소가 얽혀 있었고, 무엇보다 론칭 일정이 촉박해 팀이 빠르게 판단하고 실행해야 했습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8036-9668-d5c3db0d8dde",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 글에서는 이 프로젝트를 진행하는 동안 어떤 문제를 만났고 어떤 기술을 선택했으며, 개발 과정에서 어떤 점들을 고민하게 되었는지 정리해 보았습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 글에서는 이 프로젝트를 진행하는 동안 어떤 문제를 만났고 어떤 기술을 선택했으며, 개발 과정에서 어떤 점들을 고민하게 되었는지 정리해 보았습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-804f-a3d4-fd474f5c7215",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80fd-bac9-e5a47b48f0d6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "웹만으로는 POS를 만들 수 없었던 이유",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "웹만으로는 POS를 만들 수 없었던 이유",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8056-a803-d1e914e9f285",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "처음부터 분명했던 건, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "처음부터 분명했던 건, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "웹 기술만으로는 POS 기능을 구현할 수 없다",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "웹 기술만으로는 POS 기능을 구현할 수 없다",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "는 점이었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "는 점이었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-801a-a08b-c0a63bb8cfb0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-802e-b47e-f70c8a4bd2fe",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "가장 큰 이유는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가장 큰 이유는 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "프린터기 연동",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "프린터기 연동",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8082-bbd8-ead124909e13",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "영수증이나 전표 출력은 결국 OS와 직접 통신해야 하는 문제인데, 일반적인 웹 환경에서는 접근할 수 있는 범위에 한계가 있습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "영수증이나 전표 출력은 결국 OS와 직접 통신해야 하는 문제인데, 일반적인 웹 환경에서는 접근할 수 있는 범위에 한계가 있습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8045-be02-d972805c6edf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "또 주문이 들어왔을 때 알림을 띄우는 기능 역시 브라우저에서 안정적으로 구현하기 어렵습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "또 주문이 들어왔을 때 알림을 띄우는 기능 역시 브라우저에서 안정적으로 구현하기 어렵습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8049-9ea1-e5c3ac6c3a44",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "가맹점 POS 기기들이 항상 브라우저를 띄워놓고 있지도 않기 때문에, 알림을 웹에만 의존하는 방식은 실용적이지 않았습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가맹점 POS 기기들이 항상 브라우저를 띄워놓고 있지도 않기 때문에, 알림을 웹에만 의존하는 방식은 실용적이지 않았습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8087-abaa-ffbcc0ab7110",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8005-9c7a-e8c0d0baee5e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "실시간 주문 처리도 중요한 문제였습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "실시간 주문 처리도 중요한 문제였습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80e0-b3cb-f31b70182107",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "접수, 조리 상태 업데이트, 배달 상태 변경 등은 전부 백엔드에서 실시간으로 전달해야 하는데, 이를 적절히 처리하기 위해서는 WebSocket이 반드시 필요했습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "접수, 조리 상태 업데이트, 배달 상태 변경 등은 전부 백엔드에서 실시간으로 전달해야 하는데, 이를 적절히 처리하기 위해서는 WebSocket이 반드시 필요했습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80e2-acbd-c2e58b3a9029",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80b6-8c26-e0a3d4533bec",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그리고 POS 기능을 추가하다 보니 기존 가맹점 어드민과 프랜차이즈 어드민의 성격이 많이 달라졌습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그리고 POS 기능을 추가하다 보니 기존 가맹점 어드민과 프랜차이즈 어드민의 성격이 많이 달라졌습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-808d-8536-ee53e52ca21c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "두 어드민은 목적도, 필요한 기능도, 디자인도 분명히 달라졌기 때문에 자연스럽게 프로젝트를 분리해야 한다는 필요성이 생겼습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "두 어드민은 목적도, 필요한 기능도, 디자인도 분명히 달라졌기 때문에 자연스럽게 프로젝트를 분리해야 한다는 필요성이 생겼습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-802a-b0fe-cfe4644ef67b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-800a-9e42-f1f424b10ec0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "뭘로 만들건데?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "뭘로 만들건데?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80ac-a449-f4499481668e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "짧은 개발 기간 안에서 여러 기술 조합을 빠르게 테스트해 보았고, 그 과정에서 가장 중요하게 본 기준은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "짧은 개발 기간 안에서 여러 기술 조합을 빠르게 테스트해 보았고, 그 과정에서 가장 중요하게 본 기준은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "POS 기기와의 호환성",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "POS 기기와의 호환성",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8058-8364-f5d0b8154ad1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "대부분의 POS 기기는 Windows 기반이었고, 일부는 매우 낮은 버전의 Windows를 사용하고 있었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "대부분의 POS 기기는 Windows 기반이었고, 일부는 매우 낮은 버전의 Windows를 사용하고 있었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-800a-96ea-c4974823bfa9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이런 환경에서는 Electron이나 Flutter 같은 기술이 제대로 동작하지 않을 가능성이 꽤 높았습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이런 환경에서는 Electron이나 Flutter 같은 기술이 제대로 동작하지 않을 가능성이 꽤 높았습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80f6-ba28-fa04c3b841b6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Rust 기반 프레임워크도 후보에 올랐지만, 팀 전체가 당장 투입하기에는 다소 러닝커브가 있었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Rust 기반 프레임워크도 후보에 올랐지만, 팀 전체가 당장 투입하기에는 다소 러닝커브가 있었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8041-a6fe-d26c08219e50",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이런 여러 상황을 종합적으로 고려했을 때, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이런 여러 상황을 종합적으로 고려했을 때, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "WPF가 가장 현실적이고 안정적인 선택",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "WPF가 가장 현실적이고 안정적인 선택",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80fd-bfea-e2ce084f1653",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Windows와의 궁합이 좋고, 레거시 환경에서도 문제없이 돌아가며, 개발 속도도 빠르게 가져갈 수 있었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Windows와의 궁합이 좋고, 레거시 환경에서도 문제없이 돌아가며, 개발 속도도 빠르게 가져갈 수 있었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-805d-b594-eb6ef7bd6834",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:22:00.000Z",
+      "last_edited_time": "2025-11-13T15:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80af-aca2-d4ac49e127a0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기존 웹 스택을 최대한 살리고 싶었다",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기존 웹 스택을 최대한 살리고 싶었다",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8047-bb01-ebd560d1a39b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "POS 화면을 WPF에서 직접 새로 그리는 방법도 가능했지만, 기존 가맹점 어드민이 이미 잘 정리된 UI와 구조를 갖추고 있었기 때문에 이를 그대로 활용하는 것이 훨씬 효율적이었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "POS 화면을 WPF에서 직접 새로 그리는 방법도 가능했지만, 기존 가맹점 어드민이 이미 잘 정리된 UI와 구조를 갖추고 있었기 때문에 이를 그대로 활용하는 것이 훨씬 효율적이었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8060-8c5f-f2ffcdf8578b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "처음에는 POS 전용 React 페이지를 따로 만들어 WebView로 띄우는 방식도 고민했지만, 결국 가맹점 어드민의 방향성과 제품 구조를 생각하면 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "처음에는 POS 전용 React 페이지를 따로 만들어 WebView로 띄우는 방식도 고민했지만, 결국 가맹점 어드민의 방향성과 제품 구조를 생각하면 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "그 안에 POS 기능을 자연스럽게 포함하는 형태",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그 안에 POS 기능을 자연스럽게 포함하는 형태",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "가 더 적합했습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가 더 적합했습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8048-be06-db461d53eca9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 방식의 장점은 명확했습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 방식의 장점은 명확했습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8034-b149-d948b860264d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기존 React 기반 UI를 그대로 가져와 빠르게 개발할 수 있었고, 코드 역시 많은 부분을 공유할 수 있었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기존 React 기반 UI를 그대로 가져와 빠르게 개발할 수 있었고, 코드 역시 많은 부분을 공유할 수 있었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80d4-8474-ca0ad87a817d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "POS 기능만 별도로 분기하면 되었기 때문에 유지보수 측면에서도 안정적이었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "POS 기능만 별도로 분기하면 되었기 때문에 유지보수 측면에서도 안정적이었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80e3-ba28-ee19dca12186",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:22:00.000Z",
+      "last_edited_time": "2025-11-13T15:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-806b-9d66-d1a30987b268",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "실시간성 확보를 위한 stompjs 기반 WebSocket",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "실시간성 확보를 위한 stompjs 기반 WebSocket",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80f5-acbf-dd4027f7fb6a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "주문 흐름 전체가 실시간으로 이루어지기 때문에 WebSocket을 적용하는 건 필수였습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "주문 흐름 전체가 실시간으로 이루어지기 때문에 WebSocket을 적용하는 건 필수였습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80e3-ac7c-f183a2d37854",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그중에서도 stompjs를 선택한 이유는 다음과 같았습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그중에서도 stompjs를 선택한 이유는 다음과 같았습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80cf-a1f5-d204ea94b12a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "pub/sub 구조라 이해하기 쉽고 구조가 간결하며",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "pub/sub 구조라 이해하기 쉽고 구조가 간결하며",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80b3-abc6-fb1c9edef94c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "메시지 ACK를 지원해 신뢰성이 높고",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "메시지 ACK를 지원해 신뢰성이 높고",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8086-8bc3-d8276eeca252",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "서버 측에서도 STOMP 프로토콜을 간단히 적용할 수 있다는 점",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "서버 측에서도 STOMP 프로토콜을 간단히 적용할 수 있다는 점",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80b0-9cc7-ece735cf01b7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:22:00.000Z",
+      "last_edited_time": "2025-11-13T15:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80e6-9689-d620ae712396",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "아래는 웹뷰에서 WebSocket 메시지를 처리하는 실제 코드 일부입니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "아래는 웹뷰에서 WebSocket 메시지를 처리하는 실제 코드 일부입니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8080-a729-c92fd6d58315",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "메시지는 Zustand 기반 큐에 저장해 순서대로 처리하도록 구현했고,",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "메시지는 Zustand 기반 큐에 저장해 순서대로 처리하도록 구현했고,",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80e4-a9c7-c9d0e3f1f3fc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기기가 두 대 이상일 수 있는 상황을 고려해 multi login key를 로컬 스토리지에 저장해 두 기기 간 중복 처리도 방지했습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기기가 두 대 이상일 수 있는 상황을 고려해 multi login key를 로컬 스토리지에 저장해 두 기기 간 중복 처리도 방지했습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80a4-9b8e-cac33fb908ec",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "useEffect(() => {\n  if (messages.length === 0) return;\n\n  const message = dequeue();\n\n  switch (message?.type) {\n    case 'ORDER_CREATE':\n      if (isOwnAppOrder(message.type, message.content.order)) {\n        const order = message.content.order;\n        ack(...);\n        nativeFunction.showOrderPopup(...);\n        addOrder(order);\n      }\n      break;\n\n    case 'ORDER_UPDATE':\n      if (isOrderMessage(message.type, message.content)) {\n        const key = LocalStorage.getLocalStorageItem(AuthEntity.Const.MULTI_LOGIN_KEY);\n\n        if (window.nativeApp && (key === message.multiLoginKey || message.multiLoginKey === null)) {\n          if (shouldPrintCancelReceipt) window.nativeApp.printPrintCancelReceipt(order);\n          if (shouldPrintAcceptReceipt) window.nativeApp.printPrintOnAccept(order);\n        }\n      }\n      break;\n  }\n}, [messages]);\n\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "useEffect(() => {\n  if (messages.length === 0) return;\n\n  const message = dequeue();\n\n  switch (message?.type) {\n    case 'ORDER_CREATE':\n      if (isOwnAppOrder(message.type, message.content.order)) {\n        const order = message.content.order;\n        ack(...);\n        nativeFunction.showOrderPopup(...);\n        addOrder(order);\n      }\n      break;\n\n    case 'ORDER_UPDATE':\n      if (isOrderMessage(message.type, message.content)) {\n        const key = LocalStorage.getLocalStorageItem(AuthEntity.Const.MULTI_LOGIN_KEY);\n\n        if (window.nativeApp && (key === message.multiLoginKey || message.multiLoginKey === null)) {\n          if (shouldPrintCancelReceipt) window.nativeApp.printPrintCancelReceipt(order);\n          if (shouldPrintAcceptReceipt) window.nativeApp.printPrintOnAccept(order);\n        }\n      }\n      break;\n  }\n}, [messages]);\n\n",
+            "href": null
+          }
+        ],
+        "language": "typescript"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80d5-ab25-e88ded0e5dcd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이렇게 메시지를 안정적으로 처리하고 네이티브 기능과 연동하는 구조를 마련한 덕분에, POS 전용 기능을 기존 웹뷰에 부드럽게 통합할 수 있었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이렇게 메시지를 안정적으로 처리하고 네이티브 기능과 연동하는 구조를 마련한 덕분에, POS 전용 기능을 기존 웹뷰에 부드럽게 통합할 수 있었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8063-8e69-c8ed989a8c81",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:23:00.000Z",
+      "last_edited_time": "2025-11-13T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80f2-b658-cb6c6ed7c776",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "새로운 디자인",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "새로운 디자인",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8081-a638-e18644a1a6b3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "기존에는 FluentUI 기반의 디자인 시스템을 사용하고 있었지만, POS에 필요한 UI는 조금 더 유연한 커스터마이징이 필요했습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "기존에는 FluentUI 기반의 디자인 시스템을 사용하고 있었지만, POS에 필요한 UI는 조금 더 유연한 커스터마이징이 필요했습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8084-ae5e-f8df4da9d00b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "가맹점 어드민은 회사에서 우리가 직접 만들어가는 첫 번째 “제품”에 가까웠기 때문에, 기존 UI 라이브러리보다는 회사 색깔을 더 자연스럽게 담을 수 있는 디자인 시스템이 필요했습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가맹점 어드민은 회사에서 우리가 직접 만들어가는 첫 번째 “제품”에 가까웠기 때문에, 기존 UI 라이브러리보다는 회사 색깔을 더 자연스럽게 담을 수 있는 디자인 시스템이 필요했습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8006-b9fb-e28a4075bfe7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그 이유로 POS용 어드민에서는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그 이유로 POS용 어드민에서는 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "shadcn/ui + Tailwind",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "shadcn/ui + Tailwind",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 조합을 선택했습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 조합을 선택했습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-805c-b74b-cc5bb5d8ce18",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Tailwind는 빠른 스타일링을 가능하게 했고, shadcn/ui는 커스텀 컴포넌트를 만들기 수월했습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Tailwind는 빠른 스타일링을 가능하게 했고, shadcn/ui는 커스텀 컴포넌트를 만들기 수월했습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-806b-87b4-f17e9194470a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 조합 덕분에 구현 속도와 UI 완성도를 동시에 확보할 수 있었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 조합 덕분에 구현 속도와 UI 완성도를 동시에 확보할 수 있었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-8085-abef-d619218f8ec1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:23:00.000Z",
+      "last_edited_time": "2025-11-13T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80c5-909f-fb256104966c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "마무리하며",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "마무리하며",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-800f-b03d-d0cac0a8c8c2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이번 프로젝트는 단순히 POS 기능을 추가하는 작업을 넘어, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이번 프로젝트는 단순히 POS 기능을 추가하는 작업을 넘어, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "웹 기반 서비스와 데스크탑 애플리케이션을 결합하는 새로운 구조를 처음부터 설계하는 경험",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "웹 기반 서비스와 데스크탑 애플리케이션을 결합하는 새로운 구조를 처음부터 설계하는 경험",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-80b0-a2dc-c4bdc6e5a08a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "React와 WPF를 조합해 실시간 주문 시스템을 구현하는 사례는 흔하지 않기 때문에, 기술적으로도 흥미로운 도전이었고 팀의 성장에도 큰 도움이 되었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "React와 WPF를 조합해 실시간 주문 시스템을 구현하는 사례는 흔하지 않기 때문에, 기술적으로도 흥미로운 도전이었고 팀의 성장에도 큰 도움이 되었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "2aa0ab81-4bc2-809a-83f7-cf03b40fc858",
+      "parent": {
+        "type": "page_id",
+        "page_id": "2aa0ab81-4bc2-8011-906b-e441f320d4c7"
+      },
+      "created_time": "2025-11-13T15:21:00.000Z",
+      "last_edited_time": "2025-11-13T15:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "cdf935d8-534a-406e-b7fe-85812c8a4321"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "개인적으로도 데스크탑 + 웹뷰 조합, 실시간 통신, 하드웨어 연동 등 다양한 기술 요소가 얽혀 있는 프로젝트를 경험하면서 많은 배움을 얻을 수 있었습니다. 앞으로도 이런 복합적인 환경을 다루는 프로젝트를 더 깊이 있게 다뤄보고 싶다는 생각을 하게 만들어준 소중한 경험이었습니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "개인적으로도 데스크탑 + 웹뷰 조합, 실시간 통신, 하드웨어 연동 등 다양한 기술 요소가 얽혀 있는 프로젝트를 경험하면서 많은 배움을 얻을 수 있었습니다. 앞으로도 이런 복합적인 환경을 다루는 프로젝트를 더 깊이 있게 다뤄보고 싶다는 생각을 하게 만들어준 소중한 경험이었습니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ]
+}
